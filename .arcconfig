@@ -1,0 +1,16 @@
+{
+    "project_id": "pimpay",
+    "conduit_uri": "http://review.company.ru/",
+    "youtrack.uri": "http://yt.company.ru",
+    "load": [
+        "helpers/Phabricator/"
+    ],
+    "events": {
+        "listeners": [
+            "YouTrackEventListener"
+        ]
+    },
+    "events.listeners": [
+        "YouTrackEventListener"
+    ]
+}
